@@ -1,0 +1,14 @@
+@"
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Streamlit cache
+.streamlit/
+
+# Secret files
+.env
+"@ | Out-File -Encoding UTF8 .gitignore
